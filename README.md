@@ -1,51 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
+# Selenium Test Suite for Music Streaming Platform
 
-<head>
-    <meta charset="UTF-8">
-    <title>Selenium Test Suite for Music Streaming Platform</title>
-</head>
+## Prerequisites
 
-<body>
-    <h1>Selenium Test Suite for Music Streaming Platform</h1>
+- **Python 3:** Ensure you have Python 3 installed.
+- **Selenium:** Install Selenium by running `pip install selenium`.
+- **Chrome WebDriver:** Download and install the Chrome WebDriver from [here](https://sites.google.com/chromium.org/driver/).
 
-    <h2>Prerequisites</h2>
-    <ul>
-        <li><strong>Python 3:</strong> Ensure you have Python 3 installed.</li>
-        <li><strong>Selenium:</strong> Install Selenium by running <code>pip install selenium</code>.</li>
-        <li><strong>Chrome WebDriver:</strong> Download and install the Chrome WebDriver from <a href="https://sites.google.com/chromium.org/driver/">here</a>.</li>
-    </ul>
+## Getting Started
 
-    <h2>Getting Started</h2>
-    <ol>
-        <li>Clone this repository:</li>
-        <pre><code>git clone https://github.com/your-username/your-repository.git</code></pre>
-        <li>Install the required dependencies:</li>
-        <pre><code>pip install -r requirements.txt</code></pre>
-        <li>Download the Chrome WebDriver and ensure its path is correctly set in the code (<code>webdriver.Chrome()</code>).</li>
-    </ol>
+1. Clone this repository:
 
-    <h2>Test Scenarios</h2>
-    <h3>Login Test</h3>
-    <p>The <code>test_login()</code> function navigates to the login page of the music streaming platform and performs login testing. (Add relevant login steps in the code)</p>
+    ```bash
+    git clone https://github.com/your-username/your-repository.git
+    ```
 
-    <!-- Diğer test senaryolarını benzer şekilde açıklayın -->
+2. Install the required dependencies:
 
-    <h2>Running the Tests</h2>
-    <p>To run the test suite, execute the Python file:</p>
-    <pre><code>python test_suite.py</code></pre>
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-    <h2>Notes</h2>
-    <ul>
-        <li>Ensure the Chrome WebDriver path is correctly set in the code (<code>webdriver.Chrome()</code>).</li>
-        <li>Adjust the wait times (<code>time.sleep()</code>) as needed for the page elements to load properly.</li>
-    </ul>
+3. Download the Chrome WebDriver and ensure its path is correctly set in the code (`webdriver.Chrome()`).
 
-    <h2>Contributing</h2>
-    <p>Contributions are welcome! Feel free to submit issues or pull requests.</p>
+## Test Scenarios
 
-    <h2>License</h2>
-    <p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
-</body>
+### Login Test
 
-</html>
+The `test_login()` function navigates to the login page of the music streaming platform and performs login testing. (Add relevant login steps in the code)
+
+<!-- Add descriptions for other test scenarios similarly -->
+
+## Running the Tests
+
+To run the test suite, execute the Python file:
+
+```bash
+python test_suite.py
